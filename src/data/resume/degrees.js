@@ -1,15 +1,21 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'MIT',
+    degree: 'Master of Business Analytics',
+    link: 'https://mitsloan.mit.edu/',
+    year: 2024,
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'Athens University of Economics and Business',
+    degree: 'B.S. in Management Science and Technology',
+    link: 'https://www.aueb.gr/en',
+    year: 2020,
+  },
+  {
+    school: 'University of Southern Denmark',
+    degree: 'B.S. Management Science and Technology - Semester Abroad',
+    link: 'https://www.sdu.dk/en',
+    year: 2019,
   },
 ];
 

@@ -1,47 +1,54 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Prenatal Diagnostics',
+    subtitle: 'Fetal Health Classification and interpretable Clustering',
+    image: '/images/projects/diagnostics.jpg',
+    link: 'https://github.com/a-gantzia/fetal-health-classification',
+    codeLink: 'https://github.com/a-gantzia/fetal-health-classification',
+    presentationLink: '/projects/Neonatal Diagnostics Presentation.pdf',
+    reportLink: '/projects/Neonatal Diagnostics Project Report.pdf',
+    date: '2023-12-12',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'We use machine learning and optimization models for an efficient and accurate classification of fetal health.'
+    + 'We employing a multi-class model to classify CTG features into three categories - healthy, suspect, and pathological',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Juding a Book By its Cover and Title',
+    image: '/images/projects/books.jpg',
+    subtitle: 'Analyzing Books for Bestseller Prediction with Transfer Learning',
+    link: 'https://github.com/a-gantzia/judging-book-covers-and-titles',
+    codeLink: 'https://github.com/a-gantzia/judging-book-covers-and-titles',
+    presentationLink: '/projects/Judging a book by just its cover & title - Presentation.pdf',
+    reportLink: '/projects/Judging a book by just its cover & title - Project Report.pdf',
+    date: '2024-03-11',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'The project investigates the impact of kindle book cover designs/titles on consumer purchasing decisions on Amazon,'
+      + 'hypothesizing that visually appealing covers increase sales.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'Optimization of Habitat Selection',
+    subtitle: 'For the reintroduction of the endangered Thick-billed parrot to U.S. National Parks, using optimization models.',
+    image: '/images/projects/parrot.jpg',
+    link: '/projects/Saving the Thick Billed Parrot Presentation.pdf',
+    codeLink: '',
+    presentationLink: '/projects/Saving the Thick Billed Parrot Presentation.pdf',
+    reportLink: '/projects/Saving the Thick Billed Parrot Final Report.pdf',
+    date: '2023-12-08',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'We modelled an integer optimization function to maximize habitat suitability to reintroduce the Endangered Thick-Billed Parrot in the US, '
+      + 'uniting various open source datasets of US National Parks, annual weather conditions and sightings of the food sources and predators of the parrot.',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    title: 'Data Virtual Machines: Simplifying Data Sharing, Exploration & Querying in Big Data Environments',
+    subtitle: 'Co-authored, academic paper published on 2022 IEEE International Conference on Big Data; Osaka, Japan',
+    link: 'https://ieeexplore.ieee.org/document/10020508',
+    image: '/images/projects/graph-db.jpg',
+    date: '2022-12-20',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'Publication presents a graph-based conceptual model, the Data Virtual Machine (DVM) representing data of an organization. '
+      + 'A DVM can be built quickly and agilely, using visual interfaces for schema and query management. '
+      + 'Dataframes over DVMs are expressed visually via a simple and intuitive tool, allowing, non-IT experts can be involved in dataframing.',
   },
 ];
 
