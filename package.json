@@ -1,5 +1,5 @@
 {
-  "name": "personal-site",
+  "name": "me",
   "version": "4.0.0",
   "homepage": "https://nantoniou.github.io/",
   "license": "MIT",
@@ -15,14 +15,16 @@
     "build": "rimraf ./build && react-scripts build",
     "lint": "eslint \"**/*.js\"",
     "predeploy": "npm run build && react-snap",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "test": "npx jest"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
-    "@fortawesome/free-regular-svg-icons": "^6.5.2",
-    "@fortawesome/react-fontawesome": "0.2.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "dayjs": "^1.11.10",
     "markdown-to-jsx": "^7.4.3",
     "prop-types": "^15.8.1",
@@ -32,7 +34,9 @@
     "react-ga": "^3.3.1",
     "react-helmet-async": "^2.0.4",
     "react-router-dom": "^6.22.3",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "styled-components": "^6.1.11",
+    "gh-pages": "^5.0.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.24.7",
@@ -41,13 +45,12 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^16.0.0",
     "@testing-library/user-event": "^14.5.2",
-    "babel-jest": "^29.7.0",
     "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jsx-a11y": "6.9.0",
+    "eslint-plugin-jsx-a11y": "6.8.0",
     "eslint-plugin-react": "^7.34.2",
-    "react-snap": "^1.23.0",
+    "react-snap": "^1.13.1",
     "rimraf": "^5.0.5",
     "sass": "^1.77.6",
     "source-map-explorer": "^2.5.3"
