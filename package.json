@@ -1,11 +1,11 @@
 {
   "name": "me",
   "version": "4.0.0",
-  "homepage": "https://nantoniou.github.io/",
+  "homepage": "https://a-gantzia.github.io/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nantoniou/nantoniou.github.io.git"
+    "url": "https://github.com/a-gantzia/a-gantzia.github.io/public/"
   },
   "engines": {
     "node": ">=16.x"
