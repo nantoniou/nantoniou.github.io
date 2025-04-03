@@ -1,0 +1,12 @@
+title: "Nick Antoniou - Data Science Portfolio"
+description: "Showcasing my data science projects and skills."
+baseurl: ""
+url: "https://nantoniou.github.io"
+
+repository: "nantoniou/nantoniou.github.io"
+
+remote_theme: mmistakes/minimal-mistakes
+
+social:
+  github: nantoniou
+  linkedin: antoniou-nick
